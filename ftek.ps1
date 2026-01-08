@@ -1,5 +1,11 @@
 # ==========================================
+# # ==========================================
 # FTEK - SUPORTE TECNICO
+# Autor: Fabio Araujo
+# Uso exclusivo FTEK
+# Proibida copia ou redistribuicao sem autorizacao
+# ==========================================
+
 # ==========================================
 
 # ---------- AUTOELEVACAO ----------
@@ -168,3 +174,4 @@ do {
     Read-Host "Pressione ENTER para voltar ao menu"
 }
 while ($true)
+
