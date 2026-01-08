@@ -145,7 +145,7 @@ do {
     Mostrar-Banner
     Write-Host "1 - Informações do Sistema"
     Write-Host "2 - Informações de Rede"
-    Write-Host "3 - Espaco em Disco"
+    Write-Host "3 - Espaço em Disco"
     Write-Host "4 - Gerar Relatorio Completo"
     Write-Host "5 - Limpeza de Cache"
     Write-Host "0 - Sair"
@@ -178,6 +178,7 @@ do {
     Read-Host "Pressione ENTER para voltar ao menu"
 }
 while ($true)
+
 
 
 
