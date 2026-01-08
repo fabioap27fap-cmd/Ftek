@@ -143,8 +143,8 @@ function Gerar-Relatorio {
 # ---------- MENU ----------
 do {
     Mostrar-Banner
-    Write-Host "1 - Informacoes do Sistema"
-    Write-Host "2 - Informacoes de Rede"
+    Write-Host "1 - Informações do Sistema"
+    Write-Host "2 - Informações de Rede"
     Write-Host "3 - Espaco em Disco"
     Write-Host "4 - Gerar Relatorio Completo"
     Write-Host "5 - Limpeza de Cache"
@@ -167,11 +167,16 @@ do {
             Limpeza-Cache
             Write-Host "Limpeza realizada com sucesso!" -ForegroundColor Green
         }
-        "0" { break }
+        "0" {
+    Write-Host "Saindo..."
+    exit
+}
+
         default { Write-Host "Opcao invalida" -ForegroundColor Red }
     }
 
     Read-Host "Pressione ENTER para voltar ao menu"
 }
 while ($true)
+
 
