@@ -151,7 +151,7 @@ do {
     Write-Host "0 - Sair"
     Write-Host ""
 
-    $opcao = Read-Host "Escolha uma opcao"
+    $opcao = Read-Host "Escolha uma opção"
     Mostrar-Banner
 
     switch ($opcao) {
@@ -178,5 +178,6 @@ do {
     Read-Host "Pressione ENTER para voltar ao menu"
 }
 while ($true)
+
 
 
